@@ -13,7 +13,7 @@ java 1.8
                  gradlew.bat clean build
 
 
-	To Run the application using this jar file:
+	To Run the application traverse to the location <project path>/build/libs and run using this command:
 
                  java -jar promotion-0.0.1-SNAPSHOT.jar
                  
