@@ -1,4 +1,4 @@
-# promotion
+# Promotion Engine
 Project comprises of a simple promotion engine for the checkout process. 
 
 ## Pre-Requisite
