@@ -19,7 +19,7 @@ public class PromotionController {
 	IPromotionService promotionService;
 
 	@PostMapping(value="/promotion/calculate")
-	public ResponseEntity<Integer> updateProject(@RequestBody ProductQuantity pq) {
+	public ResponseEntity<Integer> calculatePrice(@RequestBody ProductQuantity pq) {
 		return ResponseEntity.status(HttpStatus.OK).body(promotionService.calculatePriceOfProducts(pq));
 	}
 }
